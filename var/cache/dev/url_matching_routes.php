@@ -41,10 +41,11 @@ return [
                                 .'|(?:\\.([^/]++))?(?'
                                     .'|(*:309)'
                                 .')'
-                                .'|/([^/\\.]++)(?:\\.([^/]++))?(*:344)'
+                                .'|/([^/\\.]++)(?:\\.([^/]++))?(?'
+                                    .'|(*:347)'
+                                .')'
                             .')'
                         .')'
-                        .'|i\\<3cheeses/([^/]++)(*:374)'
                     .')'
                 .')'
             .')/?$}sDu',
@@ -64,9 +65,9 @@ return [
             [['_route' => 'api_cheeses_get_collection', '_controller' => 'api_platform.action.get_collection', '_format' => null, '_api_resource_class' => 'App\\Entity\\CheeseListing', '_api_collection_operation_name' => 'get'], ['_format'], ['GET' => 0], null, false, true, null],
             [['_route' => 'api_cheeses_post_collection', '_controller' => 'api_platform.action.post_collection', '_format' => null, '_api_resource_class' => 'App\\Entity\\CheeseListing', '_api_collection_operation_name' => 'post'], ['_format'], ['POST' => 0], null, false, true, null],
         ],
-        344 => [[['_route' => 'api_cheeses_put_item', '_controller' => 'api_platform.action.put_item', '_format' => null, '_api_resource_class' => 'App\\Entity\\CheeseListing', '_api_item_operation_name' => 'put'], ['id', '_format'], ['PUT' => 0], null, false, true, null]],
-        374 => [
-            [['_route' => 'api_cheeses_get_item', '_controller' => 'api_platform.action.get_item', '_format' => null, '_api_resource_class' => 'App\\Entity\\CheeseListing', '_api_item_operation_name' => 'get'], ['id'], ['GET' => 0], null, false, true, null],
+        347 => [
+            [['_route' => 'api_cheeses_get_item', '_controller' => 'api_platform.action.get_item', '_format' => null, '_api_resource_class' => 'App\\Entity\\CheeseListing', '_api_item_operation_name' => 'get'], ['id', '_format'], ['GET' => 0], null, false, true, null],
+            [['_route' => 'api_cheeses_put_item', '_controller' => 'api_platform.action.put_item', '_format' => null, '_api_resource_class' => 'App\\Entity\\CheeseListing', '_api_item_operation_name' => 'put'], ['id', '_format'], ['PUT' => 0], null, false, true, null],
             [null, null, null, null, false, false, 0],
         ],
     ],

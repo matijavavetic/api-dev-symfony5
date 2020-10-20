@@ -1,4 +1,4 @@
-<?php //property_metadata_e88a5d624ebdf05b4e1fcd000a6cb0c9
+<?php //property_metadata_350ae618a126757409f6199d0f5c8457
 
 return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
     $o = [
@@ -29,7 +29,7 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
         ],
         'Symfony\\Component\\PropertyInfo\\Type' => [
             'builtinType' => [
-                1 => 'bool',
+                1 => 'string',
             ],
             'nullable' => [
                 1 => false,

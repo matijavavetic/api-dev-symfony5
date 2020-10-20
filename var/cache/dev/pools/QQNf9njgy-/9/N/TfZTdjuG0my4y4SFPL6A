@@ -10,6 +10,7 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
         clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
         clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
         clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
     ],
     null,
     [
@@ -23,6 +24,7 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
                 'createdAt',
                 'isPublished',
                 'textDescription',
+                'createdAtAgo',
             ],
             'attributesMetadata' => [
                 [
@@ -33,6 +35,20 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
                     'createdAt' => $o[5],
                     'isPublished' => $o[6],
                     'textDescription' => $o[7],
+                    'createdAtAgo' => $o[8],
+                ],
+            ],
+            'groups' => [
+                2 => [
+                    'cheese_listing:read',
+                    'cheese_listing:write',
+                ],
+                [
+                    'cheese_listing:read',
+                ],
+                [
+                    'cheese_listing:read',
+                    'cheese_listing:write',
                 ],
             ],
         ],

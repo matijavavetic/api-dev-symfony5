@@ -16,9 +16,6 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
             'itemOperations' => [
                 [
                     'get' => [
-                        'path' => 'i<3cheeses/{id}',
-                        'input' => null,
-                        'output' => null,
                         'method' => 'GET',
                         'input_formats' => [
                             'jsonld' => [
@@ -135,6 +132,17 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
             ],
             'attributes' => [
                 [
+                    'normalization_context' => [
+                        'groups' => [
+                            'cheese_listing:read',
+                        ],
+                        'swagger_definition_name' => 'Read',
+                    ],
+                    'denormalization_context' => [
+                        'groups' => [
+                            'cheese_listing:write',
+                        ],
+                    ],
                     'input' => null,
                     'output' => null,
                 ],
