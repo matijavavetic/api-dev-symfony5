@@ -24,7 +24,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  *     denormalizationContext={"groups"={"cheese_listing:write"}},
  *     attributes={
             "pagination_items_per_page"=10,
- *          "formats"={"jsonld","json","html","jsonhal,"csv"={"text/csv"}
+ *          "formats"={"jsonld","json","html","jsonhal","csv"={"text/csv"}}
  *     }
  * )
  * @ORM\Entity(repositoryClass=CheeseListingRepository::class)
