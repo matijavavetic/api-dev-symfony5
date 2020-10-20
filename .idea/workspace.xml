@@ -20,23 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc506f29-4239-475d-a3bc-83c29a118e5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/F71m2Cdqjy/6/P/-+4eorTUnPUaJWGRojJw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/F71m2Cdqjy/8/M/LqJqACuWHWvklCP-Vp9Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/F71m2Cdqjy/A/Q/Jsi4sP0JkJh7NlUjgdIw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/F71m2Cdqjy/F/Q/pgjpr2d869yobp-nUzhg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/F71m2Cdqjy/H/P/r4TPE6g2cALZTjz4aQTQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/F71m2Cdqjy/K/D/5WGDBr3DpjrN4SWchyiQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/F71m2Cdqjy/L/A/FOevFu7mfghNRjlJtFbw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/F71m2Cdqjy/L/X/ePf+o1CdCbJou0qnjuxA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/F71m2Cdqjy/S/1/jHUzxsMz8rLhkCgXrxAg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/F71m2Cdqjy/S/W/g15RtRnS8Co1q44EugHQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/F71m2Cdqjy/U/P/87EiGwhpbRyGcUkC2uGQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/F71m2Cdqjy/V/L/wVuaAesrrnGj3sHUnxuQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/F71m2Cdqjy/Z/+/Tov0y6AolqSLUcR2OkKQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/F71m2Cdqjy/Z/G/26T9Vu2jj15CclYPK8xw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/Zr-jMe4VJY/E/+/AKgPx+RLPGGF-WeK1xNw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/Zr-jMe4VJY/U/Z/q+paKUUsi2L30zmXO7tQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/dev/pools/xRWciz6wEJ/Z/K/KwDKA1szR7sj3ce91g4w" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602610638876</updated>
-      <workItem from="1602610639909" duration="1397000" />
+      <workItem from="1602610639909" duration="2284000" />
     </task>
     <servers />
   </component>

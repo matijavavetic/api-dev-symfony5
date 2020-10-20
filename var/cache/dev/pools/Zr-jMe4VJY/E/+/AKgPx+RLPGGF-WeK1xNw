@@ -1,3 +1,0 @@
-<?php //route_name_92206e7b51cf67a0055ab801e5dd39ae
-
-return [PHP_INT_MAX, 'api_cheese_listings_get_item'];
