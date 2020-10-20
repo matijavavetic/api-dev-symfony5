@@ -20,7 +20,10 @@ use ApiPlatform\Core\Serializer\Filter\PropertyFilter;
  *     itemOperations={"get", "put"},
  *     shortName="cheeses",
  *     normalizationContext={"groups"={"cheese_listing:read"}, "swagger_definition_name":"Read"},
- *     denormalizationContext={"groups"={"cheese_listing:write"}}
+ *     denormalizationContext={"groups"={"cheese_listing:write"}},
+ *     attributes={
+            "pagination_items_per_page"=10
+ *     }
  * )
  * @ORM\Entity(repositoryClass=CheeseListingRepository::class)
  * @ApiFilter(BooleanFilter::class, properties={"isPublished"})
