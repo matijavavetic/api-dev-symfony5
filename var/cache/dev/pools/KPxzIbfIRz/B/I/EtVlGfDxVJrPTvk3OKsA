@@ -8,7 +8,7 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
     [
         'ApiPlatform\\Core\\Metadata\\Resource\\ResourceMetadata' => [
             'shortName' => [
-                'CheeseListing',
+                'cheeses',
             ],
             'description' => [
                 '',
@@ -16,32 +16,10 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
             'itemOperations' => [
                 [
                     'get' => [
+                        'path' => 'i<3cheeses/{id}',
+                        'input' => null,
+                        'output' => null,
                         'method' => 'GET',
-                        'input_formats' => [
-                            'jsonld' => [
-                                'application/ld+json',
-                            ],
-                            'json' => [
-                                'application/json',
-                            ],
-                            'html' => [
-                                'text/html',
-                            ],
-                        ],
-                        'output_formats' => [
-                            'jsonld' => [
-                                'application/ld+json',
-                            ],
-                            'json' => [
-                                'application/json',
-                            ],
-                            'html' => [
-                                'text/html',
-                            ],
-                        ],
-                    ],
-                    'delete' => [
-                        'method' => 'DELETE',
                         'input_formats' => [
                             'jsonld' => [
                                 'application/ld+json',
@@ -76,25 +54,6 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
                             ],
                             'html' => [
                                 'text/html',
-                            ],
-                        ],
-                        'output_formats' => [
-                            'jsonld' => [
-                                'application/ld+json',
-                            ],
-                            'json' => [
-                                'application/json',
-                            ],
-                            'html' => [
-                                'text/html',
-                            ],
-                        ],
-                    ],
-                    'patch' => [
-                        'method' => 'PATCH',
-                        'input_formats' => [
-                            'json' => [
-                                'application/merge-patch+json',
                             ],
                         ],
                         'output_formats' => [
